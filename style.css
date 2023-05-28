@@ -1,0 +1,136 @@
+/* Main red: #d0604c */
+/* Secondary red: D4705E */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+img {
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+header {
+    flex: 0 0 auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header > img {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 250px;
+    align-self: center;
+}
+
+nav {
+    width: 100vw;
+    background-color: #D4705E;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px;
+    font-size: 2em;
+}
+
+main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h1 {
+    text-transform: uppercase;
+}
+
+footer {
+    flex: 0 0 auto;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1 {
+    color: white;
+    text-align: center;
+}
+
+#promotions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 32px;
+    width: 80vw;
+    height: 10vh;
+    background-color: #D4705E;
+    border-radius: 3px;
+    color: white;
+    padding: 20px;
+}
+
+#promotions p {
+    font-size: 1.3em;
+}
+
+#blog {
+    margin-top: 32px;
+    height: 100%;
+}
+
+.blog_container {
+    height: 100%;
+    display: grid;
+    grid: 100% / 1fr 1fr 1fr;
+}
+
+.info_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
+    height: 100%;
+    margin: 0 16px 0 16px;
+    border-radius: 3px;
+}
+
+.info_card h1 {
+    text-transform: uppercase;
+    text-align: bottom;
+    font-size: 3em;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+.info_card img {
+    margin-bottom: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.info_card p {
+    text-align: justify;
+    font-size: 1.3em;
+}
+
