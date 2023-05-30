@@ -42,7 +42,6 @@ nav a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 16px;
     font-size: 2em;
 }
 
@@ -127,6 +126,46 @@ footer img {
 .info_card p {
     text-align: justify;
     font-size: 1.3em;
+}
+
+.about__container {
+    display: flex;
+    width: 80vw;
+    height: 100%;
+    padding-top:32px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    margin-top: 64px;
+    text-transform: capitalize;
+}
+
+.about__card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about__card img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+.disabled {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    cursor: not-allowed;
 }
 
 @media screen and (max-width: 1500px) {
